@@ -17,11 +17,11 @@ if __name__ == "__main__":
     session.set_custom_location(latitude=50.879829, longitude=4.700540)
     
     # replace this with your own email and password!
-    email = "example@gmail.com"
-    password = "password123"
+    email = joshingcanine@gmail.com
+    password = "Nmsars2525!~!~"
     
     # login using your google account with a verified email!
-    session.login_using_google(email, password)
+    session.joshingcanine@gmail.com(email, password)
 
     # Alternatively you can login using facebook with a connected profile!
     session.login_using_facebook(email, password)
@@ -32,8 +32,8 @@ if __name__ == "__main__":
     - phone_number is everything after the prefix (+32)
     NOTE: this is not my phone number :)
     '''
-    country = "Belgium"
-    phone_number = "479011124"
+    country = "united states"
+    phone_number = "19046099946"
     session.login_using_sms(country, phone_number)
 
     # spam likes, dislikes and superlikes
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     #   - it's best to apply a randomness in your liking by sometimes disliking.
     #   - some sleeping between two actions is recommended
     # by default the amount is 1, ratio 100% and sleep 1 second
-    session.like(amount=10, ratio="72.5%", sleep=1)
+    session.like(amount=10, ratio="98.7%", sleep=1)
     session.dislike(amount=1)
     session.superlike(amount=1)
     
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     session.set_distance_range(km=150)
 
     # set range of prefered age
-    session.set_age_range(18, 55)
+    session.set_age_range(18, 28)
 
     # set interested in gender(s) -> options are: WOMEN, MEN, EVERYONE
     session.set_sexuality(Sexuality.WOMEN)
